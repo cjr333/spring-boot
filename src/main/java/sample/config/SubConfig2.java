@@ -9,8 +9,8 @@ import java.util.List;
 
 @Configuration
 public class SubConfig2 {
-    @Bean
-    Data data4() {
-        return new Data("data4");
-    }
+//    @Bean
+//    Data data4() {
+//        return new Data("data4");
+//    }
 }
