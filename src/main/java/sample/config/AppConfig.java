@@ -25,15 +25,15 @@ public class AppConfig {
   @Autowired
   List<Data> dataList;
 
-  @Bean
-  Data data1() {
-    return new Data("data1");
-  }
-
-  @Bean
-  Data data2() {
-    return new Data("data2");
-  }
+//  @Bean
+//  Data data1() {
+//    return new Data("data1");
+//  }
+//
+//  @Bean
+//  Data data2() {
+//    return new Data("data2");
+//  }
 
   @Bean
   DataService dataService() {
